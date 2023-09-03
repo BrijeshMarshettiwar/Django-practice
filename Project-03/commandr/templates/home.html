@@ -1,0 +1,21 @@
+<<head>
+  <title>Home</title>
+
+<body>
+  <div class="container">
+    <h2>Important commandsto remember</h2>
+    <ul>
+      {% for c in object_list %}
+      <li>
+        <input type="radio" id="f-option" name="selector" value="">
+        <label for="f-option">{{c}}</label>
+
+        <div class="check">
+
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+</body>
