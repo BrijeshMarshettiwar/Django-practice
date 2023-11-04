@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import timezone
 # Create your models here.
+
 class Video(models.Model):
     videotitle = models.CharField(max_length=30)
     videodes = models.TextField()
